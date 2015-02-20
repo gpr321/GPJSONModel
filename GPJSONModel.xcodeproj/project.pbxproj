@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048E24D71A97462100C45679 /* Bone.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24C01A97462100C45679 /* Bone.m */; };
+		048E24D81A97462100C45679 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24C21A97462100C45679 /* Dog.m */; };
+		048E24D91A97462100C45679 /* GPIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24C61A97462100C45679 /* GPIvar.m */; };
+		048E24DA1A97462100C45679 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24C91A97462100C45679 /* NSArray+Log.m */; };
+		048E24DB1A97462100C45679 /* NSObject+Dictionary2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24CB1A97462100C45679 /* NSObject+Dictionary2Model.m */; };
+		048E24DC1A97462100C45679 /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24CD1A97462100C45679 /* NSObject+Log.m */; };
+		048E24DD1A97462100C45679 /* NSObject+Model2Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24CF1A97462100C45679 /* NSObject+Model2Dictionary.m */; };
+		048E24DE1A97462100C45679 /* NSObject+Public.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24D11A97462100C45679 /* NSObject+Public.m */; };
+		048E24DF1A97462100C45679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24D21A97462100C45679 /* main.m */; };
+		048E24E01A97462100C45679 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24D41A97462100C45679 /* Person.m */; };
+		048E24E11A97462100C45679 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 048E24D61A97462100C45679 /* Student.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		048E24B31A97460800C45679 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		048E24B51A97460800C45679 /* GPJSONModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPJSONModel; sourceTree = BUILT_PRODUCTS_DIR; };
+		048E24BF1A97462100C45679 /* Bone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
+		048E24C01A97462100C45679 /* Bone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bone.m; sourceTree = "<group>"; };
+		048E24C11A97462100C45679 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		048E24C21A97462100C45679 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		048E24C41A97462100C45679 /* GPDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDebug.h; sourceTree = "<group>"; };
+		048E24C51A97462100C45679 /* GPIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPIvar.h; sourceTree = "<group>"; };
+		048E24C61A97462100C45679 /* GPIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPIvar.m; sourceTree = "<group>"; };
+		048E24C71A97462100C45679 /* GPJSonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPJSonModel.h; sourceTree = "<group>"; };
+		048E24C81A97462100C45679 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		048E24C91A97462100C45679 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		048E24CA1A97462100C45679 /* NSObject+Dictionary2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary2Model.h"; sourceTree = "<group>"; };
+		048E24CB1A97462100C45679 /* NSObject+Dictionary2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary2Model.m"; sourceTree = "<group>"; };
+		048E24CC1A97462100C45679 /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		048E24CD1A97462100C45679 /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		048E24CE1A97462100C45679 /* NSObject+Model2Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model2Dictionary.h"; sourceTree = "<group>"; };
+		048E24CF1A97462100C45679 /* NSObject+Model2Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model2Dictionary.m"; sourceTree = "<group>"; };
+		048E24D01A97462100C45679 /* NSObject+Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Public.h"; sourceTree = "<group>"; };
+		048E24D11A97462100C45679 /* NSObject+Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Public.m"; sourceTree = "<group>"; };
+		048E24D21A97462100C45679 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048E24D31A97462100C45679 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		048E24D41A97462100C45679 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		048E24D51A97462100C45679 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		048E24D61A97462100C45679 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048E24B21A97460800C45679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048E24AC1A97460800C45679 = {
+			isa = PBXGroup;
+			children = (
+				048E24B71A97460800C45679 /* GPJSONModel */,
+				048E24B61A97460800C45679 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048E24B61A97460800C45679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048E24B51A97460800C45679 /* GPJSONModel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048E24B71A97460800C45679 /* GPJSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				048E24C31A97462100C45679 /* GPJsonModel */,
+				048E24BF1A97462100C45679 /* Bone.h */,
+				048E24C01A97462100C45679 /* Bone.m */,
+				048E24C11A97462100C45679 /* Dog.h */,
+				048E24C21A97462100C45679 /* Dog.m */,
+				048E24D21A97462100C45679 /* main.m */,
+				048E24D31A97462100C45679 /* Person.h */,
+				048E24D41A97462100C45679 /* Person.m */,
+				048E24D51A97462100C45679 /* Student.h */,
+				048E24D61A97462100C45679 /* Student.m */,
+			);
+			path = GPJSONModel;
+			sourceTree = "<group>";
+		};
+		048E24C31A97462100C45679 /* GPJsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				048E24C41A97462100C45679 /* GPDebug.h */,
+				048E24C51A97462100C45679 /* GPIvar.h */,
+				048E24C61A97462100C45679 /* GPIvar.m */,
+				048E24C71A97462100C45679 /* GPJSonModel.h */,
+				048E24C81A97462100C45679 /* NSArray+Log.h */,
+				048E24C91A97462100C45679 /* NSArray+Log.m */,
+				048E24CA1A97462100C45679 /* NSObject+Dictionary2Model.h */,
+				048E24CB1A97462100C45679 /* NSObject+Dictionary2Model.m */,
+				048E24CC1A97462100C45679 /* NSObject+Log.h */,
+				048E24CD1A97462100C45679 /* NSObject+Log.m */,
+				048E24CE1A97462100C45679 /* NSObject+Model2Dictionary.h */,
+				048E24CF1A97462100C45679 /* NSObject+Model2Dictionary.m */,
+				048E24D01A97462100C45679 /* NSObject+Public.h */,
+				048E24D11A97462100C45679 /* NSObject+Public.m */,
+			);
+			path = GPJsonModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048E24B41A97460800C45679 /* GPJSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048E24BC1A97460800C45679 /* Build configuration list for PBXNativeTarget "GPJSONModel" */;
+			buildPhases = (
+				048E24B11A97460800C45679 /* Sources */,
+				048E24B21A97460800C45679 /* Frameworks */,
+				048E24B31A97460800C45679 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPJSONModel;
+			productName = GPJSONModel;
+			productReference = 048E24B51A97460800C45679 /* GPJSONModel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048E24AD1A97460800C45679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = gpr;
+				TargetAttributes = {
+					048E24B41A97460800C45679 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 048E24B01A97460800C45679 /* Build configuration list for PBXProject "GPJSONModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 048E24AC1A97460800C45679;
+			productRefGroup = 048E24B61A97460800C45679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048E24B41A97460800C45679 /* GPJSONModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048E24B11A97460800C45679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048E24E11A97462100C45679 /* Student.m in Sources */,
+				048E24D91A97462100C45679 /* GPIvar.m in Sources */,
+				048E24DA1A97462100C45679 /* NSArray+Log.m in Sources */,
+				048E24E01A97462100C45679 /* Person.m in Sources */,
+				048E24DC1A97462100C45679 /* NSObject+Log.m in Sources */,
+				048E24DD1A97462100C45679 /* NSObject+Model2Dictionary.m in Sources */,
+				048E24DB1A97462100C45679 /* NSObject+Dictionary2Model.m in Sources */,
+				048E24D81A97462100C45679 /* Dog.m in Sources */,
+				048E24DE1A97462100C45679 /* NSObject+Public.m in Sources */,
+				048E24DF1A97462100C45679 /* main.m in Sources */,
+				048E24D71A97462100C45679 /* Bone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		048E24BA1A97460800C45679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		048E24BB1A97460800C45679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		048E24BD1A97460800C45679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048E24BE1A97460800C45679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048E24B01A97460800C45679 /* Build configuration list for PBXProject "GPJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048E24BA1A97460800C45679 /* Debug */,
+				048E24BB1A97460800C45679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048E24BC1A97460800C45679 /* Build configuration list for PBXNativeTarget "GPJSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048E24BD1A97460800C45679 /* Debug */,
+				048E24BE1A97460800C45679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048E24AD1A97460800C45679 /* Project object */;
+}
