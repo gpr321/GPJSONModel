@@ -7,6 +7,7 @@
 //
 
 #import "Bone.h"
+#import "NSObject+Log.h"
 
 @implementation Bone
 
@@ -20,5 +21,7 @@
 + (instancetype)boneWithWeight:(float)weight{
     return [[self alloc] initWithWeight:weight];
 }
+
+GPDescription
 
 @end

@@ -8,7 +8,7 @@
 
 #import "Dog.h"
 #import "Bone.h"
-
+#import "NSObject+Log.h"
 
 @implementation Dog
 
@@ -23,5 +23,6 @@
     return [[self alloc] initWithName:name];
 }
 
+GPDescription
 
 @end

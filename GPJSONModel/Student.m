@@ -8,6 +8,7 @@
 
 #import "Student.h"
 #import "Dog.h"
+#import "NSObject+Log.h"
 
 @implementation Student
 
@@ -27,5 +28,7 @@
 + (NSDictionary *)gp_objectClassesInArryProperties{
     return @{@"pets" : [Dog class]};
 }
+
+GPDescription
 
 @end

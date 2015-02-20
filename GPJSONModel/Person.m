@@ -7,6 +7,7 @@
 //
 
 #import "Person.h"
+#import "NSObject+Log.h"
 
 @interface Person ()
 {
@@ -21,5 +22,6 @@
     _num = num;
 }
 
+GPDescription
 
 @end
