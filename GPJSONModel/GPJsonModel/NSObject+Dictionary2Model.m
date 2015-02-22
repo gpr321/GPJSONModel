@@ -143,8 +143,6 @@
     return result;
 }
 
-
-
 + (NSDictionary *)gp_dictionaryKeysMatchToPropertyNames{
     return nil;
 }

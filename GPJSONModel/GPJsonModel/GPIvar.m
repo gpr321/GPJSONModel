@@ -58,7 +58,6 @@ static NSArray *_collectionTypes;
         // 判断该属性是否 为 property
         if ( class_getProperty([obj class], [propertyName cStringUsingEncoding:NSUTF8StringEncoding]) ) {
             self.propertyName = propertyName;
-            
         }
     }
     return self;

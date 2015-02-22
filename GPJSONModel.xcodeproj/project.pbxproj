@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04889C971A99A300006AEE71 /* GPArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPArchiver.h; sourceTree = "<group>"; };
 		048E24B51A97460800C45679 /* GPJSONModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPJSONModel; sourceTree = BUILT_PRODUCTS_DIR; };
 		048E24BF1A97462100C45679 /* Bone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bone.h; sourceTree = "<group>"; };
 		048E24C01A97462100C45679 /* Bone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bone.m; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 				048E24CF1A97462100C45679 /* NSObject+Model2Dictionary.m */,
 				048E24D01A97462100C45679 /* NSObject+Public.h */,
 				048E24D11A97462100C45679 /* NSObject+Public.m */,
+				04889C971A99A300006AEE71 /* GPArchiver.h */,
 			);
 			path = GPJsonModel;
 			sourceTree = "<group>";
@@ -304,6 +306,7 @@
 				048E24BE1A97460800C45679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -22,7 +22,9 @@ typedef NS_ENUM(NSInteger, GPIvarPropertyType){
 @property (nonatomic,copy) NSString *ivarName;
 /** 如果 ivarName 没有对应的 propertyName 该属性为空 */
 @property (nonatomic,copy) NSString *propertyName;
+/** 属性值 */
 @property (nonatomic,strong) id ivarValue;
+/** 属性的类型 */
 @property (nonatomic,copy) NSString *typeEncode;
 /** 描述该属性的类型,对于非自定义对象的类型为空 */
 @property (nonatomic,assign) Class propertyClass;

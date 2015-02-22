@@ -30,6 +30,7 @@
     }
 }
 
+
 - (NSString *)stringWithCString:(const char *)cstr fromIndex:(NSInteger)index   encoding:(NSStringEncoding)encoding{
     unsigned long len = strlen(cstr);
     NSAssert(index < len, @"index in out of cstr's length");

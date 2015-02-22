@@ -12,10 +12,6 @@
 
 @implementation Student
 
-/**
- @{@"dog1" : [Dog class] ,@"dog2" : [Dog class]},
- @"pets" : @{@"pets_dog1" : [Dog class]}
- */
 + (NSDictionary *)gp_objectClassesInNSDictionaryProperties{
     return @{@"petsDict" : @{
                         @"dog1" : [Dog class],
